@@ -37,3 +37,72 @@ html, body {
   color: #FFF;
   cursor: pointer;
 }
+
+.form-container {
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.card-form {
+  width: 100%;
+  max-width: 600px;
+  background-color: #333333;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  display: none;
+}
+
+.message-error {
+  margin-top: 5px;
+  color: #FFAAAA;
+}
+
+.form-input {
+  height: 50px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0 20px;
+  font-size: 14px;
+  border: 0;
+}
+
+.form-input::placeholder {
+  color: #ccbaba;
+}
+
+.form-input::disabled {
+  background-color: #bbb;
+}
+
+.btn-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+  background-color: #646000;
+  color: #FFF;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.btn-left {
+  margin-right: 10px;
+}
+
+.btn-right {
+  margin-left: 10px;
+}
