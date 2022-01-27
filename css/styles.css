@@ -4,3 +4,36 @@
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
+html, body {
+  background-color: #000000;
+}
+
+.nav-container {
+  height: 80px;
+  background-color: #846000;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.nav-main {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-main h1 {
+  color: #FFF;
+  font-size: 36px;
+}
+
+.contact-link {
+  color: #FFF;
+  cursor: pointer;
+}
